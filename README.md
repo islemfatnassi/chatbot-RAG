@@ -44,4 +44,4 @@ python main.py
 
 Voici un aperçu de l'interface FastAPI :
 
-![FastAPI UI](C:\Users\testo\Documents\GitHub\chatbot-RAG\data\images\Screenshot 2025-07-31 153651)
+![FastAPI UI](images\Screenshot 2025-07-31 153651)
