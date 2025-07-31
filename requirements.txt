@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+langchain
+transformers
+sentence-transformers
+faiss-cpu
+pypdf
+python-dotenv
+peft
+bitsandbytes
+accelerate
+scipy
+scikit-learn
+pandas
