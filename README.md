@@ -38,3 +38,10 @@ python build_embeddings.py
 
 ## Run the Chatbot API
 python main.py
+
+
+## Demo
+
+Voici un aperçu de l'interface FastAPI :
+
+![FastAPI UI](C:\Users\testo\Documents\GitHub\chatbot-RAG\data\images\Screenshot 2025-07-31 153651)
