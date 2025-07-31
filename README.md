@@ -19,3 +19,13 @@ It uses LangChain, HuggingFace models, and FastAPI to serve the chatbot API.
 ```bash
 git clone https://github.com/your_username/rag-chatbot.git
 cd rag-chatbot
+
+
+2.Create a Python virtual environment and activate it:
+
+```python 
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On Linux/Mac
+source venv/bin/activate
