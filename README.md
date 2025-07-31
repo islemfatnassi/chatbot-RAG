@@ -30,11 +30,4 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 
-## Build Embeddings
-```bash
-python build_embeddings.py
 
-
-## Run the Chatbot API
-```bash
-python main.py
