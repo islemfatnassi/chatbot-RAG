@@ -1,31 +1,32 @@
-# chatbot-RAG
-Retrieval-Augmented Generation chatbot for document question answering using LangChain and HuggingFace models.
-# RAG Chatbot
+# RAG Chatbot 📚🤖
 
-This project implements a Retrieval-Augmented Generation (RAG) chatbot that answers questions based on documents stored locally.  
-It uses LangChain, HuggingFace models, and FastAPI to serve the chatbot API.
+A Retrieval-Augmented Generation (RAG) chatbot that answers natural language questions based on local documents (PDFs or text). Built with LangChain, HuggingFace Transformers, FAISS, and served via FastAPI.
 
-## Features
+## 🧠 Features
 
-- Load documents (text and PDF) from local directory
-- Use embeddings and vector stores (FAISS) for document retrieval
-- Use HuggingFace language models for answer generation
-- FastAPI REST API with `/ask` endpoint for question answering
+- Load and parse documents from a local folder (`/data/documents`)
+- Create and store embeddings using FAISS
+- Use pre-trained HuggingFace models to generate answers
+- REST API (`/ask`) powered by FastAPI
+- Handles text and PDF documents
 
-## Installation
+## 🚀 Technologies
 
-1. Clone the repository:
+- Python
+- LangChain
+- HuggingFace Transformers
+- FAISS
+- PyMuPDF / pdfminer / tiktoken
+- FastAPI
 
-```bash
-git clone https://github.com/your_username/rag-chatbot.git
-cd rag-chatbot
+## 📁 Project Structure
 
-
-2.Create a Python virtual environment and activate it:
-
-```python 
-python -m venv venv
-# On Windows
-venv\Scripts\activate
-# On Linux/Mac
-source venv/bin/activate
+chatbot-RAG/
+│
+├── app/ # FastAPI app
+├── data/ # Folder containing PDF/text documents
+├── training/ # Embedding and preprocessing scripts
+├── build_embeddings.py # Script to build FAISS index
+├── main.py # FastAPI main entry point
+├── requirements.txt # Project dependencies
+└── README.md
