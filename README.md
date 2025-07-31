@@ -1,8 +1,8 @@
-# RAG Chatbot 📚🤖
+# RAG Chatbot
 
 A Retrieval-Augmented Generation (RAG) chatbot that answers natural language questions based on local documents (PDFs or text). Built with LangChain, HuggingFace Transformers, FAISS, and served via FastAPI.
 
-## 🧠 Features
+## Features
 
 - Load and parse documents from a local folder (`/data/documents`)
 - Create and store embeddings using FAISS
@@ -10,7 +10,7 @@ A Retrieval-Augmented Generation (RAG) chatbot that answers natural language que
 - REST API (`/ask`) powered by FastAPI
 - Handles text and PDF documents
 
-## 🚀 Technologies
+## Technologies
 
 - Python
 - LangChain
@@ -19,14 +19,12 @@ A Retrieval-Augmented Generation (RAG) chatbot that answers natural language que
 - PyMuPDF / pdfminer / tiktoken
 - FastAPI
 
-## 📁 Project Structure
 
-chatbot-RAG/
-│
-├── app/ # FastAPI app
-├── data/ # Folder containing PDF/text documents
-├── training/ # Embedding and preprocessing scripts
-├── build_embeddings.py # Script to build FAISS index
-├── main.py # FastAPI main entry point
-├── requirements.txt # Project dependencies
-└── README.md
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/islemfatnassi/chatbot-RAG.git
+cd chatbot-RAG
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
