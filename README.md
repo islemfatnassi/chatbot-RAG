@@ -28,3 +28,13 @@ cd chatbot-RAG
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+
+
+
+## Build Embeddings
+python build_embeddings.py
+
+
+
+## Run the Chatbot API
+python main.py
